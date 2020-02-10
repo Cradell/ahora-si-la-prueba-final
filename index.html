@@ -20,28 +20,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class=" ml-auto navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#Tomás">Tomás</a>
+            <a class="nav-link" href="#Tomas">Tomás</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#Sobre mi">Sobre mi</a>
+            <a class="nav-link" href="#Sobre">Sobre mi</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#Experiencia">Experiencia</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#Mis ultimos trabajos">Mis ultimos trabajos</a>
+            <a class="nav-link" href="#trabajos">Mis ultimos trabajos</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#Contactame">Contactame</a>
         </ul>
   </nav>
   <!--Tomás-->
-  <header id="Tomás" class="hero-section text-white text-center">
+  <header id="Tomas" class="hero-section text-white text-center">
     <h1 class="display-1 font-weight-bold">Tomás</h1>
   </header>
 
   <!--sobremi-->
-  <section class="d-none d-sm-none d-md-block" id="Sobre mi">
+  <section class="d-none d-sm-none d-md-block" id="Sobre">
     <h1 class="display-3 font-weight-bold my-4 text-center">Sobre Mi</h1>
     <div class="container">
       <div class="row">
@@ -84,17 +84,18 @@
     </div>
   </section>
   <!--misultimostrabajos-->
-  <section id="Mis ultimos trabajos">
+  <section id="trabajos">
     <div class="container-fluid my-5 py-5 text-center bg-info text-white text-misultimostrabajos">
       <h1>Mis ultimos trabajos</h1>
     </div>
-    <section id=" Mis ultimos trabajos" class=" bg-info mis-ultimos-trabajos">
+    <section class=" bg-info mis-ultimos-trabajos">
       <div class="card-columns">
         <div class="card border-dark">
           <img class="card-img-top" src="assets/img/meet_coffee.png" alt="">
           <div class="card-body">
             <h5 class="card-title">Meet&Coffe</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="btn btn-info" type="button" data-toggle="modal"data-target="#exampleModalScrollable" data-target="#staticBackdrop" name="button">Mas info</button>
           </div>
         </div>
         <div class="card border-dark">
@@ -136,7 +137,29 @@
         </div>
       </div>
     </section>
+    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">Ejemplo de modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img width="100%" src="assets/img/meet_coffee.png" alt="meet_coffee">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <!--typeform-->
+    <section>
+
+    </section>
     <div class="typeform-widget" data-url="https://tomas145281.typeform.com/to/cOgz7Y" style="width: 100%; height: 500px;"></div>
     <script>
       (function() {
