@@ -1,0 +1,88 @@
+ul{
+text-align: right;
+}
+nav{
+  position: fixed;
+}
+.hero-section{
+  background-image: url('../img/mifoto.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+  font-family: 'Yellowtail', cursive;
+}
+.sobre-mi {
+  text-align: center;
+  padding-top: 7rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  font-family: 'Playfair Display', serif;
+}
+.sobremi-title{
+font-family: 'Lobster', cursive;
+}
+.sobremi-text {
+font-family: 'Playfair Display', serif;
+}
+
+.mi-experiencia{
+font-family: 'Playfair Display', serif;
+}
+.logistur {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15rem;
+  height: 15rem;
+  vertical-align: middle;
+  margin-left: 5rem;
+
+}
+.logistur-text {
+
+  vertical-align: middle;
+  margin-top: 4rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.picara-pajara {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15rem;
+  height: 15rem;
+  vertical-align: middle;
+  margin-left: 10rem;
+}
+
+.pajara-text {
+  font-family: 'Playfair Display', serif;
+  vertical-align: middle;
+  margin-top: 4rem;
+  margin-left: 10rem;
+}
+
+.experiencia {
+  display: inline-block;
+  text-align: center;
+}
+.mis-ultimos-trabajos{
+  border: 5rem;
+  padding: 15rem,
+}
+.text-misultimostrabajos{
+  font-family: 'Playfair Display', serif;
+}
+.trabajo-text{
+  margin: 0rem;
+  border: 0rem;
+}
+footer{
+  text-align: center;
+  padding: 1.25rem 4rem;
+  background-color: #000000;
+  color: #ffffff;
+
+}
